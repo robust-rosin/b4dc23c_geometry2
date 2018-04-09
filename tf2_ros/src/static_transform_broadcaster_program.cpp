@@ -31,6 +31,8 @@
 #include <tf2/LinearMath/Quaternion.h>
 #include "tf2_ros/static_transform_broadcaster.h"
 
+#include "tf2_ros/bug_witness.h"
+
 int main(int argc, char ** argv)
 {
   //Initialize ROS
